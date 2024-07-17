@@ -11,3 +11,6 @@ Health Check
 ---
 
 To see your applications health enter url `http://localhost:8081/healthcheck`
+
+
+curl -i -X GET http://localhost:8585/test  -u "good:secret"  
